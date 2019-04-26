@@ -53,7 +53,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -149,7 +149,7 @@ footer nav a {
 .header1{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 40px 0px;
     align-items: flex-end;
     
 }
@@ -209,8 +209,55 @@ a{
 
 .section2{
     padding: 0px 0px 20px 20px;
+    border-bottom: dashed black thin;
+    
 }
 
+.section3{
+    
+    display:flex;
+    flex-direction: column;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.div2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 0 10px 0;
+    margin: 20px;
+    margin-bottom: 40px;
+    border-bottom: black dashed thin;
+    height: 440px;;
+    
+}
+
+#div3{
+    margin-right: 0px;
+   
+}
+
+.h11{
+    margin-bottom: 0px;
+}
+
+.button1{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-color:black;
+    align-self: flex-start;
+}
+
+h3{
+    margin: 10px 0;
+}
 
 
 /*first commit only/* 
