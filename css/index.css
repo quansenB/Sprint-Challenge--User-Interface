@@ -146,5 +146,64 @@ footer nav a {
 }
 
 
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-content: baseline;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 45px;
+    
+}
+
+.nav1{
+    display: flex;
+    
+    
+    justify-content: space-around;
+}
+
+
+.img2{
+    padding-bottom: 20px;
+}
+
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
+
+
 
 /*first commit only/* 
