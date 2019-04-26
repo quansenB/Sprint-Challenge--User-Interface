@@ -150,22 +150,18 @@ footer nav a {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
-    align-content: baseline;
+    align-items: flex-end;
     
 }
 
 a{
     text-decoration: none;
     color: black;
-    padding: 0 45px;
-    
+    padding: 0 40px;
 }
 
 .nav1{
     display: flex;
-    
-    
-    justify-content: space-around;
 }
 
 
@@ -202,6 +198,17 @@ a{
 }
 #box10{
     background-color:dodgerblue;
+}
+
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2{
+    padding: 0px 0px 20px 20px;
 }
 
 
