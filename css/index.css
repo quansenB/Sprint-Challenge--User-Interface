@@ -20,7 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+    font: inherit;
+    font-weight: 590;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -53,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,7 +68,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 820px;
     margin: 0 auto;
 }
 
@@ -166,6 +167,7 @@ a{
 
 
 .img2{
+    width: 820px;
     padding-bottom: 20px;
 }
 
@@ -201,7 +203,7 @@ a{
 }
 
 .container-about-page{
-    width: 800px;
+    width: 820px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -238,17 +240,13 @@ a{
     
 }
 
-#div3{
-    margin-right: 0px;
-   
-}
-
 .h11{
     margin-bottom: 0px;
 }
 
 .button1{
-    padding: 10px;
+    padding: 10px 30px;
+    font-size: 16px;
     background-color: white;
     border-radius: 10px;
     border-color:black;
